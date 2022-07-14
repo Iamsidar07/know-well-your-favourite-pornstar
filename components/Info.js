@@ -4,7 +4,7 @@ import Link from "next/link";
 const Info = ({ url, name, age, nationality, slug }) => {
   return (
     <Link href={`/about/${slug}`}>
-      <div className="md:max-w-sm group rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+      <div className="md:max-w-sm group rounded-lg   shadow-md dark:bg-gray-800">
         <Image
           alt="Mountains"
           src={url}
