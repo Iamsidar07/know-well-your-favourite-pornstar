@@ -235,8 +235,8 @@ const About = () => {
           <div className="p-2 md:p-3 max-w-6xl mx-auto grid  sm:grid-cols-2 md:grid-cols-3 gap-2">
             {pornstar.images.map((img, i) => {
               return (
-                <Fade bottom>
-                <div key={i} className="p-2 dark:bg-gray-800 rounded-md">
+                <Fade bottom key={i}>
+                <div  className="p-2 dark:bg-gray-800 rounded-md">
                   <Image
                     src={img.image}
                     layout="responsive"
