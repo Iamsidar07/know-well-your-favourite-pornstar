@@ -34,9 +34,9 @@ const About = () => {
   return (
     <>
       {pornstar ? (
-        <div className=" dark:border-gray-700 max-w-6xl  mx-auto text-white p-2">
+        <div className=" dark:border-gray-700 max-w-6xl  mx-auto text-white ">
           <Link href={"/"}>
-            <button className="m-1 md:m-2 bg-blue-500 hover:bg-blue-700 text-white font-bold p-1 md:py-2 md:px-4 border border-blue-700 rounded-full">
+            <button className="m-1 md:m-2 bg-blue-500 md:hover:bg-blue-700 text-white font-bold p-1 md:py-2 md:px-4 border border-blue-700 rounded-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
@@ -61,7 +61,7 @@ const About = () => {
                   <div className="overflow-hidden">
                     <table className="min-w-full">
                       <tbody>
-                        <tr className="bg-transparent hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between ">
+                        <tr className="bg-transparent md:hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between ">
                           <td className="text-xl text-white font-light px-6 py-4 ">
                             Name
                           </td>
@@ -69,7 +69,7 @@ const About = () => {
                             {pornstar.name}
                           </td>
                         </tr>
-                        <tr className="bg-transparent hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between">
+                        <tr className="bg-transparent md:hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between">
                           <td className="text-sm text-white font-light px-6 py-4 ">
                             Age
                           </td>
@@ -109,7 +109,7 @@ const About = () => {
                             {pornstar.tats}
                           </td>
                         </tr>
-                        <tr className="bg-transparent hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between">
+                        <tr className="bg-transparent md:hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between">
                           <td className="text-sm text-white font-light px-6 py-4 ">
                             Hip
                           </td>
@@ -117,7 +117,7 @@ const About = () => {
                             {pornstar.hip}
                           </td>
                         </tr>
-                        <tr className="bg-transparent hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between">
+                        <tr className="bg-transparent md:hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between">
                           <td className="text-sm text-white font-light px-6 py-4 ">
                             Waist
                           </td>
@@ -125,7 +125,7 @@ const About = () => {
                             {pornstar.waist}
                           </td>
                         </tr>
-                        <tr className="bg-transparent hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between ">
+                        <tr className="bg-transparent md:hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between ">
                           <td className="text-sm text-white font-light px-6 py-4 ">
                             Cup size
                           </td>
@@ -147,7 +147,7 @@ const About = () => {
                   <div className="overflow-hidden">
                     <table className="min-w-full">
                       <tbody>
-                        <tr className="bg-transparent hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between ">
+                        <tr className="bg-transparent md:hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between ">
                           <td className="md:text-lg text-white font-light px-6 py-4 ">
                             Boobs
                           </td>
@@ -155,7 +155,7 @@ const About = () => {
                             {pornstar.boobs}
                           </td>
                         </tr>
-                        <tr className="bg-transparent hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between ">
+                        <tr className="bg-transparent md:hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between ">
                           <td className="text-sm text-white font-light px-6 py-4 ">
                             Ass
                           </td>
@@ -163,7 +163,7 @@ const About = () => {
                             {pornstar.ass}
                           </td>
                         </tr>
-                        <tr className="bg-transparent hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between ">
+                        <tr className="bg-transparent md:hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between ">
                           <td className="text-sm text-white font-light px-6 py-4 ">
                             bust
                           </td>
@@ -171,7 +171,7 @@ const About = () => {
                             {pornstar.bust}
                           </td>
                         </tr>
-                        <tr className="bg-transparent hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between ">
+                        <tr className="bg-transparent md:hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between ">
                           <td className="text-sm text-white font-light px-6 py-4 ">
                             Eyes
                           </td>
@@ -179,7 +179,7 @@ const About = () => {
                             {pornstar.eyes}
                           </td>
                         </tr>
-                        <tr className="bg-transparent hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between ">
+                        <tr className="bg-transparent md:hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between ">
                           <td className="text-sm text-white font-light px-6 py-4 ">
                             Hair
                           </td>
@@ -187,7 +187,7 @@ const About = () => {
                             {pornstar.hair}
                           </td>
                         </tr>
-                        <tr className="bg-transparent hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between ">
+                        <tr className="bg-transparent md:hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between ">
                           <td className="text-sm text-white font-light px-6 py-4 ">
                             Height
                           </td>
@@ -195,7 +195,7 @@ const About = () => {
                             {pornstar.height}
                           </td>
                         </tr>
-                        <tr className="bg-transparent hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between ">
+                        <tr className="bg-transparent md:hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between ">
                           <td className="text-sm text-white font-light px-6 py-4 ">
                             Piercings
                           </td>
@@ -203,7 +203,7 @@ const About = () => {
                             {pornstar.piercings}
                           </td>
                         </tr>
-                        <tr className="bg-transparent hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between ">
+                        <tr className="bg-transparent md:hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between ">
                           <td className="text-sm text-white font-light px-6 py-4 ">
                             Weight
                           </td>
@@ -211,7 +211,7 @@ const About = () => {
                             {pornstar.weight}
                           </td>
                         </tr>
-                        <tr className="bg-transparent hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between ">
+                        <tr className="bg-transparent md:hover:dark:bg-gray-800  transition duration-300 ease-in-out flex items-center justify-between ">
                           <td className="text-sm text-white font-light px-6 py-4 ">
                             Raw measurement
                           </td>
@@ -232,11 +232,11 @@ const About = () => {
             More from {pornstar.name}&apos;s pictures
           </p>
           </Fade>
-          <div className="p-2 md:p-3 max-w-6xl mx-auto grid  sm:grid-cols-2 md:grid-cols-3 gap-2">
+          <div className="md:p-3 max-w-6xl mx-auto grid  sm:grid-cols-2 md:grid-cols-3 gap-2">
             {pornstar.images.map((img, i) => {
               return (
                 <Fade bottom key={i}>
-                <div  className="p-2 dark:bg-gray-800 rounded-md">
+                <div  className="p-1 dark:bg-gray-800 rounded-md">
                   <Image
                     src={img.image}
                     layout="responsive"
@@ -244,7 +244,7 @@ const About = () => {
                     height={600}
                     quality={100}
                     objectFit="cover"
-                    className="max-w-full h-auto rounded-t-sm hover:rounded-t-sm hover:scale-105 transition-all duration-100 ease-in"
+                    className="max-w-full h-auto rounded-t-sm md:hover:rounded-t-sm md:hover:scale-105 transition-all duration-100 ease-in"
                   />
                 </div>
                 </Fade>
