@@ -24,7 +24,7 @@ const Header = () => {
         <img
           src="img/main.jpg"
           alt=""
-          className="w-full bg-slate-100  h-full object-contain mt-96"
+          className="w-full bg-slate-100 rounded h-full object-contain mt-96"
         />
       </div>
     </div>
