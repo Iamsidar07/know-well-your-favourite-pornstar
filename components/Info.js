@@ -17,7 +17,7 @@ const Info = ({ url, name, age, nationality, slug }) => {
             width={530}
             height={600}
             objectFit="cover"
-            className="rounded-t-sm md:group-hover:rounded-t-sm cursor-pointer md:group-hover:scale-110 transition-all duration-100 ease-in bg-gray-500 "
+            className="rounded-t-sm md:group-hover:rounded-t-sm cursor-pointer md:group-hover:scale-110 transition-all duration-100 ease-in dark:bg-gray-800/20 "
           />
 
           <h5 className="p-1 md:group-hover:text-blue-500 md:mb-2 text-lg md:text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">

@@ -20,11 +20,11 @@ const Header = () => {
           </p>
         </div>
       </div>
-      <div className="hidden md:block w-full overflow-auto object-cover">
+      <div className="hidden md:block w-full rounded-md overflow-auto object-cover">
         <img
           src="img/main.jpg"
           alt=""
-          className="w-full bg-slate-100 rounded h-full object-contain mt-96"
+          className="w-full bg-slate-100  h-full object-contain mt-96"
         />
       </div>
     </div>
