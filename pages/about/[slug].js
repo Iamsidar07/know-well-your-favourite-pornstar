@@ -232,11 +232,11 @@ const About = () => {
             More from {pornstar.name}&apos;s pictures
           </p>
           </Fade>
-          <div className="md:p-3 max-w-6xl mx-auto grid  sm:grid-cols-2 md:grid-cols-3 gap-2">
+          <div className="p-2 md:p-3 max-w-6xl mx-auto grid  sm:grid-cols-2 md:grid-cols-3 gap-2">
             {pornstar.images.map((img, i) => {
               return (
                 <Fade bottom key={i}>
-                <div  className="p-1 dark:bg-gray-800 rounded-md">
+                <div  className=" dark:bg-gray-800 rounded-md">
                   <Image
                     src={img.image}
                     layout="responsive"
@@ -244,7 +244,7 @@ const About = () => {
                     height={600}
                     quality={100}
                     objectFit="cover"
-                    className="max-w-full h-auto rounded-t-sm md:hover:rounded-t-sm md:hover:scale-105 transition-all duration-100 ease-in"
+                    className="max-w-full h-auto rounded md:hover:rounded-t-sm md:hover:scale-105 transition-all duration-100 ease-in"
                   />
                 </div>
                 </Fade>

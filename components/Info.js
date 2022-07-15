@@ -20,17 +20,17 @@ const Info = ({ url, name, age, nationality, slug }) => {
             className="rounded-t-sm md:group-hover:rounded-t-sm cursor-pointer md:group-hover:scale-110 transition-all duration-100 ease-in dark:bg-gray-800/20 "
           />
 
-          <h5 className="p-1 md:group-hover:text-blue-500 md:mb-2 text-lg md:text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="px-2 py-1 md:group-hover:text-blue-500 md:mb-2 text-lg md:text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
             {name},{age}
           </h5>
 
-          <div className="flex p-1 items-center full justify-between">
+          <div className="flex p-2 items-center full justify-between">
             <p className="md:mb-3  font-normal text-gray-700 dark:text-gray-400">
               {nationality}
             </p>
             <a
               href="#"
-              className="  inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg md:hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 md:dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className=" inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 md:hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 md:dark:hover:bg-blue-700 dark:focus:ring-blue-800 rounded-full"
             >
               get more
               <svg
