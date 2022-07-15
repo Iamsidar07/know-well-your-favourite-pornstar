@@ -4,9 +4,10 @@ import Link from "next/link";
 const Info = ({ url, name, age, nationality, slug }) => {
   return (
     <Link href={`/about/${slug}`}>
-      <div className="md:max-w-sm group rounded-lg   shadow-md dark:bg-gray-800">
-        <Image
-          alt="Mountains"
+      <div className="md:max-w-sm group rounded-lg   shadow-md dark:bg-gray-800/40">
+        {
+          url&&<Image
+          alt={name}
           src={url}
           layout="responsive"
           width={530}
@@ -14,6 +15,7 @@ const Info = ({ url, name, age, nationality, slug }) => {
           objectFit="cover"
           className="rounded-t-sm md:group-hover:rounded-t-sm cursor-pointer md:group-hover:scale-110 transition-all duration-100 ease-in bg-gray-500 "
         />
+        }
 
         <h5 className="p-1 md:group-hover:text-blue-500 md:mb-2 text-lg md:text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
           {name},{age}
