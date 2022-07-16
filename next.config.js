@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: [ "api.papi.rest","cdni.pornpics.com","media.babesource.com"],
+    domains: ["api.papi.rest","cdni.pornpics.com","media.babesource.com"],
   },
 }
 
