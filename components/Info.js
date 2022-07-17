@@ -5,7 +5,7 @@ const Info = ({ url, name, age, nationality, slug }) => {
   return (
     <>
       <Link href={`/about/${slug}`}>
-        <div className="md:max-w-sm group rounded-lg mt-2  shadow-md dark:bg-gray-800">
+        <div className="md:max-w-sm  group rounded-lg mt-2  shadow-md dark:bg-gray-800">
           <Image
             alt={name}
             src={

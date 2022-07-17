@@ -236,12 +236,12 @@ const About = () => {
             {pornstar.images.map((img, i) => {
               return (
                 <Fade bottom key={i}>
-                <div  className=" dark:bg-gray-800 rounded-md">
+                <div  className=" dark:bg-gray-800 rounded-md ">
                   <Image
                     src={img.image}
                     layout="responsive"
                     width={530}
-                    height={600}
+                    height={400}
                     quality={100}
                     objectFit="cover"
                     className="max-w-full h-auto rounded md:hover:rounded-t-sm md:hover:scale-105 transition-all duration-100 ease-in"
